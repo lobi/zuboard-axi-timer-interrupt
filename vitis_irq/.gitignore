@@ -1,0 +1,112 @@
+# Vitis Workspace & Build Artifacts
+.metadata/
+.analytics/
+RemoteSystemsTempFiles/
+
+# Application Build Directories
+**/build/
+**/Debug/
+**/Release/
+**/_ide/
+**/compile_commands.json
+/export
+
+# Platform Build Artifacts
+platform*/hw/*.xsa
+platform*/export/
+platform*/.Xil/
+platform*/hw/.Xil/
+platform*/zynqmp_fsbl/
+platform*/psu_cortexa53_0/
+platform*/psu_pmu_0/
+
+# Vivado Project Files
+*.runs/
+*.gen/
+*.sim/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.xpr.backup
+*.jou
+*.log
+*.str
+*.pb
+*.dcp
+*.ltx
+*.rpt
+
+# Hardware Debug Files
+*.bit
+*.ltx
+*.mmi
+
+# Binary & Executable Files
+*.elf
+*.elf.size
+*.bin
+*.o
+*.a
+*.so
+*.d
+*.pdi
+
+# Linker & Map Files
+*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-*
+.project
+.cproject
+.settings/
+.vitisWorkspace.json
+
+# Lock Files
+*.lock
+
+# Logs
+/logs/
+*.log
+vivado*.jou
+vivado*.str
+webtalk*.jou
+webtalk*.log
+_ide/logs/
+_ide/.wsdata
+
+# Ninja Build System
+.ninja_*
+build.ninja
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# BSP Generated Files (Keep source, ignore generated)
+**/bsp/lib/
+**/bsp/libsrc/*/src/*.o
+**/bsp/libsrc/*/src/*.a
+
+# Keep Important Files
+!*.c
+!*.h
+!*.tcl
+!*.xdc
+!*.bd
+!*.yml
+!*.json
+!Makefile
+!CMakeLists.txt
+!lscript.ld
+!README.md
+!LICENSE

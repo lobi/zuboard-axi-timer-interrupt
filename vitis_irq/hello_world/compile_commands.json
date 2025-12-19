@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/repos/sem4/interrupt/vitis_irq/hello_world/build",
+  "command": "C:\\Xilinx\\2025.1\\Vitis\\gnu\\aarch64\\nt\\aarch64-none\\bin\\aarch64-none-elf-gcc.exe -isystem D:/repos/sem4/interrupt/vitis_irq/platform2/export/platform2/sw/standalone_psu_cortexa53_0/include -isystem C:/Xilinx/2025.1/gnu/aarch64/nt/aarch64-none/x86_64-oesdk-mingw32/usr/lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/13.3.0/include -isystem C:/Xilinx/2025.1/gnu/aarch64/nt/aarch64-none/x86_64-oesdk-mingw32/usr/lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/13.3.0/include-fixed -isystem C:/Xilinx/2025.1/Vitis/gnu/aarch64/nt/aarch64-none/aarch64-xilinx-elf/usr/include  -DSDT  -MMD -MP -specs=D:/repos/sem4/interrupt/vitis_irq/platform2/export/platform2/sw/standalone_psu_cortexa53_0/Xilinx.spec -ID:/repos/sem4/interrupt/vitis_irq/platform2/export/platform2/sw/standalone_psu_cortexa53_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\hello_world.elf.dir\\helloworld.c.obj -c D:\\repos\\sem4\\interrupt\\vitis_irq\\hello_world\\src\\helloworld.c",
+  "file": "D:\\repos\\sem4\\interrupt\\vitis_irq\\hello_world\\src\\helloworld.c"
+},
+{
+  "directory": "D:/repos/sem4/interrupt/vitis_irq/hello_world/build",
+  "command": "C:\\Xilinx\\2025.1\\Vitis\\gnu\\aarch64\\nt\\aarch64-none\\bin\\aarch64-none-elf-gcc.exe -isystem D:/repos/sem4/interrupt/vitis_irq/platform2/export/platform2/sw/standalone_psu_cortexa53_0/include -isystem C:/Xilinx/2025.1/gnu/aarch64/nt/aarch64-none/x86_64-oesdk-mingw32/usr/lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/13.3.0/include -isystem C:/Xilinx/2025.1/gnu/aarch64/nt/aarch64-none/x86_64-oesdk-mingw32/usr/lib/aarch64-xilinx-elf/gcc/aarch64-xilinx-elf/13.3.0/include-fixed -isystem C:/Xilinx/2025.1/Vitis/gnu/aarch64/nt/aarch64-none/aarch64-xilinx-elf/usr/include  -DSDT  -MMD -MP -specs=D:/repos/sem4/interrupt/vitis_irq/platform2/export/platform2/sw/standalone_psu_cortexa53_0/Xilinx.spec -ID:/repos/sem4/interrupt/vitis_irq/platform2/export/platform2/sw/standalone_psu_cortexa53_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\hello_world.elf.dir\\platform.c.obj -c D:\\repos\\sem4\\interrupt\\vitis_irq\\hello_world\\src\\platform.c",
+  "file": "D:\\repos\\sem4\\interrupt\\vitis_irq\\hello_world\\src\\platform.c"
+}
+]
