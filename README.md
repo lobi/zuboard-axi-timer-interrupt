@@ -28,15 +28,16 @@ interrupt/
     ├── platform2/               # Hardware platform
     │   ├── hw/                  # XSA import
     │   └── export/              # BSP exports
-    ├── hello_world2/            # Main interrupt demo
-    │   └── src/
-    │       └── helloworld.c     # Timer interrupt application
-    └── hello_world/             # Reference Xilinx example
+    └── hello_world2/            # Main interrupt demo
+        └── src/
+            └── helloworld.c     # Timer interrupt application
 ```
 
 ## Programmable Logic (PL) Design
 
 ### Block Design - design_1
+
+![Block Design](/docs/vivado-bd.png)
 
 The Vivado block design implements the following PL peripherals:
 
@@ -99,6 +100,8 @@ axi_timer_0.interrupt
 ## Vitis Software Applications
 
 ### hello_world2 - Main Interrupt Demo
+
+![Block Design](/docs/vitis-output.png)
 
 Custom implementation demonstrating:
 - AXI Timer initialization using base address (SDT platform)
