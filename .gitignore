@@ -1,0 +1,179 @@
+# ============================================
+# Vivado Project Files
+# ============================================
+
+# Vivado temporary files
+*.jou
+*.log
+*.backup.*
+*.bak
+*.pb
+*.dcp
+*.str
+
+# Build directories
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.gen/
+
+# Synthesis & Implementation
+*.runs/synth_1/
+*.runs/impl_1/
+*.runs/*/
+
+# IP cache
+ip_repo/
+.ip_cache/
+
+# Vivado local files
+vivado*.jou
+vivado*.log
+vivado_pid*.str
+*.wdb
+
+# ============================================
+# Vitis Workspace Files
+# ============================================
+
+# Vitis workspace metadata
+vitis_irq/.metadata/
+vitis_irq/.analytics/
+vitis_irq/RemoteSystemsTempFiles/
+
+# Application build artifacts
+vitis_irq/**/build/
+vitis_irq/**/Debug/
+vitis_irq/**/Release/
+vitis_irq/**/_ide/
+vitis_irq/**/compile_commands.json
+
+# Platform exports and builds
+vitis_irq/platform*/export/
+vitis_irq/platform*/.Xil/
+vitis_irq/platform*/hw/.Xil/
+vitis_irq/platform*/zynqmp_fsbl/
+vitis_irq/platform*/psu_cortexa53_0/standalone_*/bsp/lib/
+vitis_irq/platform*/psu_pmu_0/
+
+# Binary & executable files
+*.elf
+*.elf.size
+*.bin
+*.bit
+*.o
+*.a
+*.so
+*.d
+*.pdi
+*.ltx
+*.mmi
+
+# Linker & debug files
+*.map
+
+# Vitis configuration
+*.vitisWorkspace.json
+*.lock
+
+# Logs
+vitis_irq/logs/
+vitis_irq/**/_ide/logs/
+vitis_irq/**/_ide/.wsdata
+
+# Build system files
+.ninja_*
+build.ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# ============================================
+# Hardware Export Files (Conditional)
+# ============================================
+
+# Keep main XSA at root, ignore intermediate exports
+vitis_irq/platform*/hw/*.xsa
+
+# ============================================
+# BSP Generated Files
+# ============================================
+
+# Keep BSP source, ignore compiled libraries
+**/bsp/lib/
+**/bsp/libsrc/*/src/*.o
+**/bsp/libsrc/*/src/*.a
+**/bsp/*/lib/
+
+# ============================================
+# System & Editor Files
+# ============================================
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+*.sublime-*
+
+# Eclipse/Vitis IDE
+.project
+.cproject
+.settings/
+.pydevproject
+
+# ============================================
+# Version Control
+# ============================================
+
+# Git attributes
+.gitattributes
+
+# ============================================
+# Keep These Files (Exceptions)
+# ============================================
+
+# Source code
+!*.c
+!*.h
+!*.cpp
+!*.hpp
+
+# Scripts & config
+!*.tcl
+!*.xdc
+!*.bd
+!*.yml
+!*.yaml
+!*.json
+
+# Build files
+!Makefile
+!CMakeLists.txt
+!*.mk
+
+# Linker scripts
+!lscript.ld
+!*.lds
+
+# Documentation
+!README.md
+!*.md
+!LICENSE
+!*.txt
+
+# Keep root-level XSA
+!design_1_wrapper.xsa
